@@ -1,5 +1,8 @@
 # YggdrasilPgNotify
 
+Experimenting Postgres notification via triggers and broadcasting with websockets. Written in Ruby with `Sequel.listen` and Faye.
+Logs in the terminal, the console.
+
 ```bash
 mix phx.new yggdrasil_pg_notify
 
@@ -38,3 +41,5 @@ $ iex -S mix phx.server
 listening...
 iex>  [info] [id: 1, title: "one"]
 ```
+
+Open browser <http://localhost:9292>
